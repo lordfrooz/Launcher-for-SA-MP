@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Liberty_City_Roleplay</id>
+    <version>1.0.0</version>
+    <title>Liberty City Roleplay - Patcher</title>
+    <authors>Liberty_City_Roleplay</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">ADSL</license>
+    <licenseUrl>https://licenses.nuget.org/ADSL</licenseUrl>
+    <icon>liberty (1).png</icon>
+    <projectUrl>https://libertycityrpg.com/</projectUrl>
+    <description>Patcher for LCRP.</description>
+    <copyright>Copyright © 2023</copyright>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="FontAwesome.Sharp" version="6.3.0" exclude="Build,Analyzers" />
+        <dependency id="SharpCompress" version="0.33.0" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Vectors" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/clientlogo (1).ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Debug\net6.0-windows\Liberty_City_Roleplay.runtimeconfig.json" target="lib\net6.0-windows7.0\Liberty_City_Roleplay.runtimeconfig.json" />
+    <file src="C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Debug\net6.0-windows\Liberty_City_Roleplay.dll" target="lib\net6.0-windows7.0\Liberty_City_Roleplay.dll" />
+    <file src="C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\clientlogo (1).ico" target="content\clientlogo (1).ico" />
+    <file src="C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\clientlogo (1).ico" target="contentFiles\any\net6.0-windows7.0\clientlogo (1).ico" />
+    <file src="C:\Users\Gürkan\Desktop\liberty (1).png" target="\liberty (1).png" />
+  </files>
+</package>

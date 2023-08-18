@@ -1,0 +1,3 @@
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\win-x64\app.publish\Liberty City Roleplay.pdb
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\win-x64\app.publish\Liberty City Roleplay.dll.config
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\win-x64\app.publish\Liberty City Roleplay.exe

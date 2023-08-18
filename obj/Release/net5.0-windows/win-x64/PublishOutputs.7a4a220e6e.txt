@@ -1,0 +1,2 @@
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\net5.0-windows\publish\win-x64\asd.pdb
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\net5.0-windows\publish\win-x64\asd.exe

@@ -1,0 +1,2 @@
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\win-x86\asd.pdb
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\win-x86\asd.exe

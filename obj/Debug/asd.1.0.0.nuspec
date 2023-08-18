@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>asd</id>
+    <version>1.0.0</version>
+    <authors>asd</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="FontAwesome.Sharp" version="6.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.Platforms" version="7.0.4" exclude="Build,Analyzers" />
+        <dependency id="SharpCompress" version="0.33.0" exclude="Build,Analyzers" />
+        <dependency id="System.Buffers" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Vectors" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/lc.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Gürkan\source\repos\asd\asd\bin\Debug\netcoreapp3.1\asd.runtimeconfig.json" target="lib\netcoreapp3.1\asd.runtimeconfig.json" />
+    <file src="C:\Users\Gürkan\source\repos\asd\asd\bin\Debug\netcoreapp3.1\asd.dll" target="lib\netcoreapp3.1\asd.dll" />
+    <file src="C:\Users\Gürkan\source\repos\asd\asd\lc.ico" target="content\lc.ico" />
+    <file src="C:\Users\Gürkan\source\repos\asd\asd\lc.ico" target="contentFiles\any\netcoreapp3.1\lc.ico" />
+  </files>
+</package>

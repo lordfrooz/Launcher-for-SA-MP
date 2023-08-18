@@ -1,0 +1,24 @@
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\Liberty City Roleplay.exe
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\Liberty City Roleplay.dll.config
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\Liberty City Roleplay.deps.json
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\Liberty City Roleplay.runtimeconfig.json
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\Liberty City Roleplay.dll
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\Liberty City Roleplay.pdb
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\SharpCompress.dll
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\System.Text.Encoding.CodePages.dll
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.csproj.AssemblyReference.cache
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\LCRP.Form1.resources
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty_City_Roleplay.Properties.Resources.resources
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.csproj.GenerateResource.cache
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.AssemblyInfoInputs.cache
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.AssemblyInfo.cs
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.csproj.CoreCompileInputs.cache
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.csproj.CopyComplete
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.dll
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\refint\Liberty City Roleplay.dll
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.pdb
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\Liberty City Roleplay.genruntimeconfig.cache
+C:\Users\Gürkan\Desktop\Liberty City Roleplay\Liberty City Roleplay\obj\Release\net6.0-windows\ref\Liberty City Roleplay.dll

@@ -1,0 +1,9 @@
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\asd.exe
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\asd.dll
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\asd.deps.json
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\asd.runtimeconfig.json
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\asd.pdb
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\FontAwesome.Sharp.dll
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\SharpCompress.dll
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Gürkan\source\repos\asd\asd\bin\Release\netcoreapp3.1\publish\System.Text.Encoding.CodePages.dll

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Liberty City Roleplay.exe" version="1.0.0.0" publicKeyToken="c3bcfe9a4d36422b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="clientlogo (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1">Patcher for LCRP.</description>
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17384">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>c8etvPz+Q7Fz5yIYfrIx9w0my0t9/O1JQuWnF0ubkjI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="clientlogo (1).ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2JsfFwwqwgjubL0up3bR6P2fWvq411anPIbX58wEpFI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Liberty City Roleplay.dll.config" size="77">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sRXPO8NcIiuVI4ajMrs7gnxty0j6ChK7OorE6bM0xfQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Liberty City Roleplay.exe" size="2734616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JhmVM/b8NMlDT8Smu0e8YUvBQDOSpo9P4p9Blpt6qW4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Exponental-1053\Gürkan" issuerKeyHash="bd711c92a85eaf817a0c495336c24ba195efa8a0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zBxssIjP/n0S9a/+RHBJtiCG3xwo3BAQCv+jPK6CwGE=</DigestValue></Reference></SignedInfo><SignatureValue>bQFHpxRQTv72FFiXAScwBjF2X7ebIi6Qhzcy+bQ8zpWLvcAsvy+kKvbFXn3+D/XkLj0VfNr6ReRVBWioJTQC8/82WYPG05u7U91Ep1KK5FRE9LilLuWM3BQfRUnupJ2fc+63MzcyB5nsFr488gFbvY636QIAMOAZV7dKN21XSdg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>toECMZRQsqKAbIUhx7SDmJ/MHMfCQKDKJ9B0BTAIYvzZCgDU7jwxZm8ufmcbr9JwkuipbH9AnFbv4c6QPfTdoCck4nt4o+seaIDr1WpvzI8B+UMOZ8vBMD6uXyYgYkIuApqfWQ2GiB0znrUGCYQplJYm/9SAZ2rAS8KNttoM6W0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="61c082ae3ca3ff0a1010dc281cdf8620b6497044feaff5127dfecf88b06c1ccc" Description="" Url=""><as:assemblyIdentity name="Liberty City Roleplay.exe" version="1.0.0.0" publicKeyToken="c3bcfe9a4d36422b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Exponental-1053\Gürkan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oCR+GziIRXxI9FL6vwEn4pJBbqdu8d2fmUnJWcunISo=</DigestValue></Reference></SignedInfo><SignatureValue>CX84mDe5JTVnjbiTtq/rmsGK2qM/iPD6NyZJOEveqCF5bmSyCbQKOSgS/SD5irnbgWDtyC8PjA7/wfa6k301FkYM9b2peLTHHm0/QI3dQ96pFwtEVSxv4/8hM9/FUs5bqYbW3PeKyLB5JRj1o58lUS/lAd62J/+3DFMCt7QLHH8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>toECMZRQsqKAbIUhx7SDmJ/MHMfCQKDKJ9B0BTAIYvzZCgDU7jwxZm8ufmcbr9JwkuipbH9AnFbv4c6QPfTdoCck4nt4o+seaIDr1WpvzI8B+UMOZ8vBMD6uXyYgYkIuApqfWQ2GiB0znrUGCYQplJYm/9SAZ2rAS8KNttoM6W0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQGZ6VF8hTGbZB/RfTBhknHTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARQB4AHAAbwBuAGUAbgB0AGEAbAAtADEAMAA1ADMAXABHAPwAcgBrAGEAbjAeFw0yMzA4MTEwMjI1NTZaFw0yNDA4MTAwODI1NTZaMDcxNTAzBgNVBAMeLABFAHgAcABvAG4AZQBuAHQAYQBsAC0AMQAwADUAMwBcAEcA/AByAGsAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2gQIxlFCyooBshSHHtIOYn8wcx8JAoMon0HQFMAhi/NkKANTuPDFmby5+Zxuv0nCS6Klsf0CcVu/hzpA99N2gJyTie3ij6x5ogOvVam/MjwH5Qw5ny8EwPq5fJiBiQi4Cmp9ZDYaIHTOetQYJhCmUlib/1IBnasBLwo222gzpbQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIpuEsIVWxx0mylb3IfiytJ1MzvvZRKXOehC8CLOj/5G1oYOmzDpnFP8UG3zzfz0tQdvYwolxZtxx3tDrfwxdaBuXPlM1cVYfE6ior26PzMv7VjYkAlWWZb89C7XO9p2n7zBSbwiyIe7nIitMGz6PqJCGjrkp9tWKPmGVuKnnfWx</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

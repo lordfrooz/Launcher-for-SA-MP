@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Gürkan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gürkan\\.nuget\\packages"
+    ]
+  }
+}
